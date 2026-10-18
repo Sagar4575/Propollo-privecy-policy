@@ -9,8 +9,7 @@ dependencies, no external requests. Host it directly with GitHub Pages.
 | ------------- | --------------------- | ---------------------------- |
 | `index.html`  | Privacy Policy        | `https://<user>.github.io/<repo>/` |
 | `terms.html`  | Terms & Conditions    | `https://<user>.github.io/<repo>/terms.html` |
-| `styles.css`  | Shared stylesheet     | —                            |
-| `favicon.svg` | Site icon             | —                            |
+| `styles.css`  | Shared stylesheet (black & white) | —                  |
 | `.nojekyll`   | Disables Jekyll on Pages | —                         |
 
 ## Publish with GitHub Pages
@@ -38,8 +37,11 @@ Then point a `CNAME` DNS record for that host at `<user>.github.io`, and enable
 ## Editing
 
 - Text is plain HTML — edit `index.html` or `terms.html` directly.
-- Both pages share `styles.css` (light/dark theme follows the visitor's OS
-  setting via `prefers-color-scheme`). Print styles are included.
+- Both pages share `styles.css`. The palette is **strictly monochrome**
+  (black, white, and greys) and switches between light and dark automatically
+  based on the visitor's OS setting via `prefers-color-scheme`. Print styles are
+  included.
+- No logo, icon, or favicon is used anywhere on these pages.
 - The pages currently use placeholder-free contact details:
   - Website: `https://propollo.online`
   - Email: `propollo.online@gmail.com`
